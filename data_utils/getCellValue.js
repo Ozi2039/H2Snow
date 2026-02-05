@@ -1,4 +1,3 @@
-
 export function getCellValue(spreadsheetId, sheetName, cellAddress) {
 
     const { execSync } = require('child_process');
